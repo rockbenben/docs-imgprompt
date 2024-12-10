@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Quick Start
-      link: https://prompt.newzone.top/app/en
+      link: https://prompt.newzone.top/app/en.html
     - theme: alt
       text: GitHub
       link: https://github.com/rockbenben/img-prompt
