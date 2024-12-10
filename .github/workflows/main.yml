@@ -37,7 +37,7 @@ jobs:
         with:
           # 这是文档部署到的分支名称
           branch: gh-pages
-          folder: out
+          folder: doc_build
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
