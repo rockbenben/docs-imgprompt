@@ -1,6 +1,6 @@
 # Introduction
 
-[IMGPrompt](https://prompt.newzone.top/) is an AI image prompt editor specifically designed for Stable Diffusion, Midjourney, DALL·E, and FLUX. Its clean and intuitive interface allows users to easily view and combine the desired prompt text. Each prompt is accompanied by a Chinese translation, enabling users to quickly select or combine prompts by simply clicking or entering keywords. This significantly simplifies the process of entering image generation prompts.
+[IMGPrompt](https://prompt.newzone.top/app/en) is an AI image prompt editor specifically designed for Stable Diffusion, Midjourney, DALL·E, and FLUX. Its clean and intuitive interface allows users to easily view and combine the desired prompt text. Each prompt is accompanied by a Chinese translation, enabling users to quickly select or combine prompts by simply clicking or entering keywords. This significantly simplifies the process of entering image generation prompts.
 
 ## Key Features
 

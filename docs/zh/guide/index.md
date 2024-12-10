@@ -1,7 +1,7 @@
 
 # 介绍
 
-[IMGPrompt](https://prompt.newzone.top/) 是专为 Stable Diffusion、Midjourney、DALL·E 和 FLUX 打造的 AI 图像提示词编辑器，界面简洁直观，使用户能够轻松地查看并组合所需的提示词文本。每个提示词都附有中文翻译，用户仅需通过点击或输入关键词，即可快速选取或组合，从而大大简化了文生图提示词输入。
+[IMGPrompt](https://prompt.newzone.top/app) 是专为 Stable Diffusion、Midjourney、DALL·E 和 FLUX 打造的 AI 图像提示词编辑器，界面简洁直观，使用户能够轻松地查看并组合所需的提示词文本。每个提示词都附有中文翻译，用户仅需通过点击或输入关键词，即可快速选取或组合，从而大大简化了文生图提示词输入。
 
 ## 特色功能
 

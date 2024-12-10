@@ -9,7 +9,7 @@ export default defineConfig({
     light: '/light-logo.png',
     dark: '/dark-logo.png',
   },
-  lang: 'en',
+  lang: 'zh',
   locales: [
     {
       lang: 'en',
