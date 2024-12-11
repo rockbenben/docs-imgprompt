@@ -2903,6 +2903,11 @@ rspack-plugin-virtual-module@0.1.13:
   dependencies:
     fs-extra "^11.1.1"
 
+rspress-plugin-sitemap@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmmirror.com/rspress-plugin-sitemap/-/rspress-plugin-sitemap-1.1.1.tgz#4c7dd253f00c4c9b5956b5743d48dcc08e817328"
+  integrity sha512-usb6zWoi5wFFmBeA9HKR6BhsnnsItudMBarc54GYpuRL55SWkLxyWyMijv14mUI04FI7J7lEmea08uZE0bVKxg==
+
 rspress@^1.38.0:
   version "1.38.0"
   resolved "https://registry.npmmirror.com/rspress/-/rspress-1.38.0.tgz#e6b0af52f0ad0d1151193bef4868f9507b03e7f4"
