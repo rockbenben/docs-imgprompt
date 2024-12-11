@@ -10,8 +10,8 @@ hero:
       text: Quick Start
       link: https://prompt.newzone.top/app/en
     - theme: alt
-      text: GitHub
-      link: https://github.com/rockbenben/img-prompt
+      text: Guide
+      link: /en/guide/
   image:
     src: /rspress-icon.png
     alt: Logo

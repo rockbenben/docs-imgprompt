@@ -10,5 +10,9 @@
     "guide": {
       "en": "Guide",
       "zh": "指南"
+    },
+    "app": {
+      "en": "Application",
+      "zh": "应用"
     }
 }

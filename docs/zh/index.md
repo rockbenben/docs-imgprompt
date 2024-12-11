@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: Quick Start
-      link: https://prompt.newzone.top/app
+      link: https://prompt.newzone.top/app/zh
     - theme: alt
-      text: GitHub
-      link: https://github.com/rockbenben/img-prompt
+      text: Guide
+      link: /guide/
   image:
     src: /rspress-icon.png
     alt: Logo

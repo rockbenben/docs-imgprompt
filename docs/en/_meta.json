@@ -3,5 +3,10 @@
     "text": "guide",
     "link": "/guide/",
     "activeMatch": "/guide/"
+  },
+  {
+    "text": "app",
+    "link": "https://prompt.newzone.top/app/en",
+    "activeMatch": "/app/en"
   }
 ]
