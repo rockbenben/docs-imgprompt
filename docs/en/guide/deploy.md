@@ -32,7 +32,7 @@ yarn build && yarn start
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying the `src/app/page.tsx` file. The page will auto-update as you make changes.
+You can start editing the page by modifying the `src/app/[locale]/page.tsx` file. The page will auto-update as you make changes.
 
 ## Docker Deployment
 

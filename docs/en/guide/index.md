@@ -1,6 +1,8 @@
 # Introduction
 
-**IMGPrompt** is an AI prompt editor designed specifically for image generation tools like **Stable Diffusion**, **Midjourney**, **DALL·E**, **FLUX**, and video generation tools such as **Sora**. With its clean and intuitive interface, users can easily view and combine the prompts they need. Each prompt also comes with translations in the user’s native language, allowing you to quickly select or combine keywords with just a click or input, simplifying the prompt creation process and boosting your creative efficiency.
+In today's rapidly evolving world of AI image generation, accurate prompt descriptions are crucial for creating high-quality work. However, for non-native English speakers, precisely describing their ideal scenes in English often presents a significant challenge. To address this pain point, I developed IMGPrompt — an AI prompt editor that breaks through language barriers. Regardless of your native language, IMGPrompt helps you accurately express your creative intent, making it easy to master mainstream AI image tools like Stable Diffusion, Midjourney, DALL·E, FLUX, and even video generation tools like Sora.
+
+**IMGPrompt** offers a clean, intuitive interface that allows users to easily browse and combine the prompts they need. Each English prompt comes with native language translations, enabling users to quickly select or combine keywords with just a click or input. This dramatically simplifies the creative process and boosts efficiency, making AI creation more accessible than ever!
 
 [Experience IMGPrompt now and boost your creative workflow!](https://prompt.newzone.top/app/en)
 
