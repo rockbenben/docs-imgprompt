@@ -10,11 +10,11 @@ In today's rapidly evolving world of AI image generation, accurate prompt descri
 
 ## Features
 
-### Smart Recommendation System
+### Smart Suggestion System
 
-IMGPrompt offers intelligent recommendations based on the keywords you input (supports 14 languages, including Chinese and English). The system automatically suggests related prompts, helping you quickly find the right expression, saving time, and increasing creative efficiency.
+IMGPrompt offers intelligent suggestions based on the keywords you input (supports 14 languages, including Chinese and English). The system automatically suggests related prompts, helping you quickly find the right expression, saving time, and increasing creative efficiency.
 
-![Smart Recommendation Demo](https://img.newzone.top/gif/imgprompt-ai-suggestions.webp)
+![Smart Suggestion Demo](https://img.newzone.top/gif/imgprompt-ai-suggestions.webp)
 
 ### Translation Feature
 
