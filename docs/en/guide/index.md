@@ -2,6 +2,8 @@
 
 In today's rapidly evolving world of AI image generation, accurate prompt descriptions are crucial for creating high-quality work. However, for non-native English speakers, precisely describing their ideal scenes in English often presents a significant challenge. To address this pain point, I developed IMGPrompt — an AI prompt editor that breaks through language barriers. Regardless of your native language, IMGPrompt helps you accurately express your creative intent, making it easy to master mainstream AI image tools like Stable Diffusion, Midjourney, DALL·E, FLUX, and even video generation tools like Sora.
 
+<a href="https://www.producthunt.com/posts/imgprompt?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-imgprompt" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=703738&theme=light" alt="IMGPrompt - Boost&#0032;your&#0032;creativity&#0032;with&#0032;smart&#0032;AI&#0032;prompt&#0032;editing | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 **IMGPrompt** offers a clean, intuitive interface that allows users to easily browse and combine the prompts they need. Each English prompt comes with native language translations, enabling users to quickly select or combine keywords with just a click or input. This dramatically simplifies the creative process and boosts efficiency, making AI creation more accessible than ever!
 
 [Experience IMGPrompt now and boost your creative workflow!](https://prompt.newzone.top/app/en)
