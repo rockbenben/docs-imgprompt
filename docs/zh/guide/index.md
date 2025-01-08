@@ -3,13 +3,13 @@
 
 在 AI 图像生成技术日新月异的今天，准确的提示词描述是创作优质作品的关键。然而，对于非英语母语者来说，用英文精确描述理想场景往往充满挑战。正是基于这个痛点，我开发了 IMGPrompt —— 一个突破语言障碍的 AI 图像提示词编辑器。无论你使用什么语言，IMGPrompt 都能帮助你准确表达创作意图，轻松驾驭 Stable Diffusion、Midjourney、DALL·E、FLUX 等主流 AI 图像工具，甚至包括 Sora 等视频生成工具。
 
-<a href="https://www.producthunt.com/posts/imgprompt?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-imgprompt" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=703738&theme=light" alt="IMGPrompt - Boost&#0032;your&#0032;creativity&#0032;with&#0032;smart&#0032;AI&#0032;prompt&#0032;editing | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-
 IMGPrompt 提供清晰直观的界面，让用户可以轻松浏览和组合所需的提示词。每个英文提示词都配有母语翻译，用户只需点击或输入即可快速选择或组合关键词，大大简化了创作流程，提升效率。这款工具正在让 AI 视觉创作变得前所未有的简单！
 
 [立即体验 IMGPrompt，轻松提升创作效率！](https://prompt.newzone.top/app/zh)
 
 ![IMGPrompt 界面预览](https://img.newzone.top/2024-10-23-18-31-38.png?imageMogr2/format/webp)
+
+如果你对 AI 文生图完全不了解，可先查看攻略：[零基础入门 Stable Diffusion - 无需显卡把 AI 绘画引擎搬进家用电脑](https://newzone.top/posts/2022-09-05-stable_diffusion_ai_painting.html)。
 
 ## 特色功能
 
