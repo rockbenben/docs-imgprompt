@@ -7,10 +7,10 @@ hero:
   tagline: 极简的图像提示词编辑器
   actions:
     - theme: brand
-      text: Quick Start
+      text: 开始使用
       link: https://prompt.newzone.top/app/zh
     - theme: alt
-      text: Guide
+      text: 指南
       link: /guide/
   image:
     src: /rspress-icon.png
