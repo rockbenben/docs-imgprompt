@@ -27,7 +27,7 @@ src
 
 ## 自定义提示词
 
-如果你想增加新的提示词数据，可以使用 [IMGPrompt 数据转换器](https://tools.newzone.top/data-parser/img-prompt)，将自定义提示词转换为 IMGPrompt 格式。然后，将转换后的数据保存在自部署的 `src/app/data/prompt-custom.json` 文件中。除了用于 AI 绘图，IMGPrompt 还可以用于管理专业提示词和多种数据编辑场景。
+如果你想增加新的提示词数据，可以使用 [IMGPrompt 数据转换器](https://tools.newzone.top/zh/data-parser/img-prompt)，将自定义提示词转换为 IMGPrompt 格式。然后，将转换后的数据保存在自部署的 `src/app/data/prompt-custom.json` 文件中。除了用于 AI 绘图，IMGPrompt 还可以用于管理专业提示词和多种数据编辑场景。
 
 ### 修改示例
 

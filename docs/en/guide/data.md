@@ -27,7 +27,7 @@ src
 
 ## Custom Prompts
 
-If you want to add new prompt, you can use the [IMGPrompt Data Converter](https://tools.newzone.top/data-parser/img-prompt) to convert custom prompts into the IMGPrompt format. The converted data should be saved in the `src/app/data/prompt-custom.json` file of your self-hosted version. In addition to AI image generation, IMGPrompt can also be used to manage professional prompts and data editing in various scenarios.
+If you want to add new prompt, you can use the [IMGPrompt Data Converter](https://tools.newzone.top/en/data-parser/img-prompt) to convert custom prompts into the IMGPrompt format. The converted data should be saved in the `src/app/data/prompt-custom.json` file of your self-hosted version. In addition to AI image generation, IMGPrompt can also be used to manage professional prompts and data editing in various scenarios.
 
 ### Example of Modification
 
