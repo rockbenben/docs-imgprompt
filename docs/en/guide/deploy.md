@@ -1,10 +1,12 @@
 # Project Deployment
 
+IMGPrompt can be deployed on Cloudflare, Vercel, or any server.
+
 ## Deployment Instructions
 
 **System Requirements:**
 
-- [Node.js 18.17](https://nodejs.org/) or later.
+- [Node.js 18.18](https://nodejs.org/) or later.
 - macOS, Windows (including WSL), and Linux are supported.
 
 ### Vercel Deployment
@@ -28,6 +30,11 @@ yarn dev
 
 # Build and start
 yarn build && yarn start
+
+# Deploy for a single language
+yarn build:lang en
+yarn build:lang zh
+yarn build:lang zh-hant
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.

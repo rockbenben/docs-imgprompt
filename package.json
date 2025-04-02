@@ -1,6 +1,6 @@
 {
   "name": "web-docs-imgprompt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "scripts": {
     "build": "rspress build",
@@ -11,7 +11,7 @@
     "preview": "rspress preview"
   },
   "dependencies": {
-    "rspress": "^1.43.9",
+    "rspress": "^1.43.10",
     "rspress-plugin-sitemap": "^1.1.1"
   },
   "devDependencies": {

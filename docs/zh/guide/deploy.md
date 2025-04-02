@@ -1,10 +1,12 @@
 # 项目部署
 
+IMGPrompt 可部署到 CloudFlare、Vercel 或任意服务器。
+
 ## 部署说明
 
 System Requirements:
 
-- [Node.js 18.17](https://nodejs.org/) or later.
+- [Node.js 18.18](https://nodejs.org/) or later.
 - macOS, Windows (including WSL), and Linux are supported.
 
 ### Vercel 部署
@@ -20,14 +22,19 @@ System Requirements:
 确保你已安装 [Node.js](https://nodejs.org/)。
 
 ```shell
-# Installation
+# Installation（安装依赖）
 yarn
 
-# Local Development
+# Local Development (本地开发)
 yarn dev
 
-# build and start
+# build and start (构建并启动)
 yarn build && yarn start
+
+# Deploy for a single language（单一语言部署）
+yarn build:lang en
+yarn build:lang zh
+yarn build:lang zh-hant
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
