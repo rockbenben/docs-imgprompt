@@ -14,5 +14,3 @@ jobs:
           token: ${{ secrets.PAT_DEPLOY }}
           repository: rockbenben/deploy-imgprompt
           event-type: rebuild-static
-          client-payload:
-          source_repo: ${{ github.repository }}
