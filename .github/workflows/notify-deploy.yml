@@ -15,4 +15,4 @@ jobs:
           repository: rockbenben/deploy-imgprompt
           event-type: rebuild-static
           client-payload:
-            source_repo: ${{ github.repository }}
+          source_repo: ${{ github.repository }}
