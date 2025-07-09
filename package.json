@@ -11,8 +11,8 @@
     "preview": "rspress preview"
   },
   "dependencies": {
-    "rspress": "^1.43.10",
-    "rspress-plugin-sitemap": "^1.1.1"
+    "rspress": "^1.44.0",
+    "rspress-plugin-sitemap": "^1.2.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
