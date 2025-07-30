@@ -6,7 +6,7 @@ IMGPrompt 的提示词资源来源于网络收集、[promptoMANIA](https://promp
 
 所有提示词数据存储于项目目录 `src/app/data` 下，结构如下：
 
-```yml
+```yaml
 src
 └── app
     └── data

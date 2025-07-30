@@ -6,7 +6,7 @@ The prompt resources for **IMGPrompt** are collected from online sources, includ
 
 All prompt data is stored in the project directory under `src/app/data` with the following structure:
 
-```yml
+```yaml
 src
 └── app
     └── data
