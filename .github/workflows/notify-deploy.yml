@@ -12,5 +12,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.PAT_DEPLOY }}
-          repository: rockbenben/deploy-imgprompt
-          event-type: rebuild-static
+          repository: rockbenben/deploy
+          event-type: rebuild-imgprompt
