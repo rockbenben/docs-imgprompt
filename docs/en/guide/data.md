@@ -1,3 +1,11 @@
+---
+head:
+  - - meta
+    - property: og:title
+      content: 'IMGPrompt Prompt Data Structure & Customization Guide'
+description: 'Want to add your own prompts to IMGPrompt? This page details the prompt data structure and guides you on using the data converter to add custom prompts, expanding your AI art library.'
+---
+
 # Prompt Data
 
 The prompt resources for **IMGPrompt** are collected from online sources, including [promptoMANIA](https://promptomania.com/midjourney-prompt-builder/) and [sd-webui-prompt-all-in-one](https://github.com/Physton/sd-webui-prompt-all-in-one/blob/main/group_tags/zh_CN.yaml). After deduplication and standardization, nearly 5,000 prompts have been compiled. These can be used in various AI image generation and text-to-video scenarios.

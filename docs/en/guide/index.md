@@ -1,3 +1,11 @@
+---
+head:
+  - - meta
+    - property: og:title
+      content: 'IMGPrompt Guide: Getting Started with the AI Art Prompt Editor'
+description: 'Want to use IMGPrompt effectively? This guide covers its core features, including smart suggestions, multi-language translation, and advanced editing, helping you master AI art prompts.'
+---
+
 # Introduction
 
 In today's rapidly evolving world of AI image generation, accurate prompt descriptions are crucial for creating high-quality work. However, for non-native English speakers, precisely describing their ideal scenes in English often presents a significant challenge. To address this pain point, I developed IMGPrompt — an AI prompt editor that breaks through language barriers. Regardless of your native language, IMGPrompt helps you accurately express your creative intent, making it easy to master mainstream AI image tools like Stable Diffusion, Midjourney, DALL·E, FLUX, and even video generation tools like Sora.

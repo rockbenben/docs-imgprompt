@@ -1,3 +1,11 @@
+---
+head:
+  - - meta
+    - property: og:title
+      content: IMGPrompt 界面功能详解：掌握 AI 绘图提示词编辑技巧
+description: 如何使用 IMGPrompt 的强大功能？本指南详细介绍了界面布局、标签选择、智能推荐、快捷功能等操作，助您轻松上手，熟练运用各种编辑技巧，提升 AI 创作效率。
+---
+
 # 界面说明
 
 ### 1. 选择提示词范围
