@@ -1,3 +1,11 @@
+---
+head:
+  - - meta
+    - property: og:title
+      content: 'IMGPrompt Interface Guide: Master AI Art Prompt Editing'
+description: "How to use IMGPrompt's powerful features? This guide explains the interface layout, tag selection, smart suggestions, and shortcuts to help you master AI art prompt editing."
+---
+
 # Interface Overview
 
 ### 1. Select Prompt Range

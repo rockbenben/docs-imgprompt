@@ -12,17 +12,17 @@ export default defineConfig({
       lang: 'en',
       label: 'English',
       title:
-        'IMGPrompt: Creative AI Art Assistant, Image and Video Generation Prompt Editor (Stable Diffusion, Midjourney, DALL·E, FLUX, Sora)',
+        'IMGPrompt: Your Creative AI Art Assistant | Master FLUX, Midjourney, DALL·E, Sora&Stable Diffusion',
       description:
-        'IMGPrompt is an AI prompt editor designed specifically for image generation tools like Stable Diffusion, Midjourney, DALL·E, FLUX, and video generation tools such as Sora. With its clean and intuitive interface, users can easily view and combine the prompts they need. Each prompt also comes with translations in the user’s native language, allowing you to quickly select or combine keywords with just a click or input, simplifying the prompt creation process and boosting your creative efficiency.',
+        'Struggling with prompts for AI art? IMGPrompt offers a vast library of quality prompts, smart suggestions, and multi-language translation to help you create stunning images. Master tools like FLUX, Midjourney and Sora, and unleash your creativity.',
     },
     {
       lang: 'zh',
       label: '简体中文',
       title:
-        'IMGPrompt：创意 AI 绘图助手，图像与视频生成提示编辑器（Stable Diffusion、Midjourney、DALL·E、FLUX、Sora）',
+        'IMGPrompt: 创意 AI 绘图助手 | 轻松驾驭 FLUX、Midjourney、Sora、DALL·E&Stable Diffusion）',
       description:
-        'IMGPrompt 是一款专为图像生成工具（如 Stable Diffusion、Midjourney、DALL·E、FLUX）和视频生成工具（如 Sora）设计的直观 AI 提示编辑器。通过简洁且易于使用的界面，用户可以轻松查看并组合所需的提示。每个提示都附有用户母语的翻译，让您只需点击或输入即可快速选择或组合关键词，从而简化提示创建过程，提升创作效率。',
+        '在为AI绘图提示词烦恼吗？IMGPrompt是你的创意AI绘图助手，提供海量灵感、智能推荐和翻译，支持FLUX等工具。告别语言障碍，立即提升你的创作效率。',
     },
   ],
   themeConfig: {

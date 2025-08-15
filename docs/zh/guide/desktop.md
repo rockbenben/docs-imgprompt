@@ -1,3 +1,11 @@
+---
+head:
+  - - meta
+    - property: og:title
+      content: IMGPrompt 桌面客户端下载 | 支持 Windows、macOS 和 Linux
+description: 想要在桌面端使用 IMGPrompt 吗？立即下载适用于 Windows、macOS (Intel/M1/M2) 和 Linux 的官方客户端，享受原生应用体验，让 AI 绘图创作更便捷。
+---
+
 # 桌面客户端
 
 除了网页版，你还可以在 [GitHub Release](https://github.com/rockbenben/img-prompt/releases/latest) 下载最新的桌面客户端，支持 **Windows**、**MacOS** 和 **Linux** 系统。请根据你的操作系统选择合适的文件进行下载：

@@ -1,3 +1,11 @@
+---
+head:
+  - - meta
+    - property: og:title
+      content: IMGPrompt 提示词数据结构与自定义指南
+description: 想为 IMGPrompt 添加自己的提示词吗？本页详细介绍了提示词的数据结构，并指导您如何使用数据转换器添加自定义提示词，轻松扩展您的 AI 绘图灵感库。
+---
+
 # 提示词数据
 
 IMGPrompt 的提示词资源来源于网络收集、[promptoMANIA](https://promptomania.com/midjourney-prompt-builder/) 以及 [sd-webui-prompt-all-in-one](https://github.com/Physton/sd-webui-prompt-all-in-one/blob/main/group_tags/zh_CN.yaml)。经过去重与标准化处理，共整理出近 5000 条图像/视频生成提示词，可用于多种 AI 绘图、文生视频等场景。

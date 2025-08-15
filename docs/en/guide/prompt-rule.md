@@ -1,3 +1,11 @@
+---
+head:
+  - - meta
+    - property: og:title
+      content: 'AI Art Prompt Rules: Learn to Write High-Quality Image Prompts'
+description: 'Want to improve your AI art? This page covers the core rules of image prompts, including word order, quantity control, element emphasis, and negative prompts to help you write better prompts.'
+---
+
 # Image Prompt Rules
 
 Although different image generation applications may handle prompts differently, the basic rules are quite similar:

@@ -1,3 +1,11 @@
+---
+head:
+  - - meta
+    - property: og:title
+      content: 'How to Deploy IMGPrompt: Vercel, Local & Docker Guides'
+description: 'Want to deploy IMGPrompt yourself? This guide provides detailed steps for Vercel one-click deployment, local setup, and Docker containerization, making it easy to get started.'
+---
+
 # Project Deployment
 
 IMGPrompt can be deployed on Cloudflare, Vercel, or any server.

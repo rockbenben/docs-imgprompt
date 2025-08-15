@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - property: og:title
+      content: IMGPrompt 指南：轻松上手 AI 绘图提示词编辑器
+description: 想知道如何高效使用 IMGPrompt 吗？本指南将带您了解其核心功能，包括智能推荐、多语言翻译及高级编辑技巧，助您快速掌握 AI 绘图提示词的奥秘，提升创作水平。
+---
 
 # 介绍
 
