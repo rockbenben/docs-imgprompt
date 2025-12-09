@@ -32,6 +32,6 @@ features:
     details: 内置智能翻译引擎，可将任意语言提示词秒速转换为专业英文，轻松适配各大 AI 绘图平台。
     icon: 🌍
   - title: 全平台兼容
-    details: 完美支持 Midjourney、DALL·E、Stable Diffusion 和 FLUX 等主流 AI 绘图工具，一键复制提示词，创作无界限。
+    details: 完美支持 Nano Banana、Midjourney、FLUX、Stable Diffusion 和 DALL·E 等主流 AI 绘图工具，一键复制提示词，创作无界限。
     icon: 🌈
 ---

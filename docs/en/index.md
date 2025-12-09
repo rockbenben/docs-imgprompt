@@ -32,6 +32,6 @@ features:
     details: Built-in smart translation engine instantly converts prompts from any language to professional English, effortlessly adapting to major AI drawing platforms.
     icon: 🌍
   - title: Cross-Platform Compatibility
-    details: Perfect support for Midjourney, DALL·E, Stable Diffusion, and FLUX, with one-click prompt copying, breaking creative boundaries.
+    details: Perfect support for Nano Banana, Midjourney, FLUX, Stable Diffusion and DALL·E, with one-click prompt copying, breaking creative boundaries.
     icon: 🌈
 ---

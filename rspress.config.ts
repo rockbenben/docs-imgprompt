@@ -12,17 +12,17 @@ export default defineConfig({
       lang: 'en',
       label: 'English',
       title:
-        'IMGPrompt: Your Creative AI Art Assistant | Master FLUX, Midjourney, DALL·E, Sora&Stable Diffusion',
+        'IMGPrompt - Your Creative AI Art Assistan | Nano Banana, Midjourney, FLUX, SD, DALL·E Prompt Builder',
       description:
-        'Struggling with prompts for AI art? IMGPrompt offers a vast library of quality prompts, smart suggestions, and multi-language translation to help you create stunning images. Master tools like FLUX, Midjourney and Sora, and unleash your creativity.',
+        'Free online AI art prompt generator for Nano Banana, Midjourney, FLUX, Stable Diffusion, and DALL·E. Smart tag selection, one-click professional prompts, with built-in portrait lighting and quality optimization templates.',
     },
     {
       lang: 'zh',
       label: '简体中文',
       title:
-        'IMGPrompt: 创意 AI 绘图助手 | 轻松驾驭 FLUX、Midjourney、Sora、DALL·E&Stable Diffusion）',
+        'IMGPrompt - AI绘画提示词生成器 | Nano Banana/Midjourney/FLUX/SD/DALL·E 提示词助手',
       description:
-        '在为AI绘图提示词烦恼吗？IMGPrompt是你的创意AI绘图助手，提供海量灵感、智能推荐和翻译，支持FLUX等工具。告别语言障碍，立即提升你的创作效率。',
+        '免费在线AI绘画提示词生成工具，支持Nano Banana、Midjourney、FLUX、Stable Diffusion、DALL·E。智能标签选择、一键生成专业级提示词，内置人像布光、画质优化模板，让你的AI艺术作品轻松出圈。',
     },
   ],
   themeConfig: {
