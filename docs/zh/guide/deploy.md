@@ -10,11 +10,19 @@ description: 想要自行部署 IMGPrompt 吗？本指南为您提供了详细�
 
 IMGPrompt 可部署到 CloudFlare、Vercel 或任意服务器。
 
+**如何快速开始：**
+
+- 零配置托管：直接用 Vercel 一键部署。
+- 需要可控环境：本地运行最灵活。
+- 偏好容器：拉取官方 Docker 镜像。
+
+无论哪种方式，都能获得同样的多语言体验和 5000+ 提示词库。
+
 ## 部署说明
 
 System Requirements:
 
-- [Node.js 18.18](https://nodejs.org/) or later.
+- [Node.js 20.9](https://nodejs.org/) or later.
 - macOS, Windows (including WSL), and Linux are supported.
 
 ### Vercel 部署
@@ -48,6 +56,8 @@ yarn build:lang zh-hant
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `src/app/[locale]/page.tsx`. The page auto-updates as you edit the file.
+
+> 习惯其他包管理器？将示例中的 `yarn` 替换为对应的 `pnpm` 或 `npm` 命令即可。
 
 ## Docker 部署
 

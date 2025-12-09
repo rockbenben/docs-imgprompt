@@ -10,11 +10,19 @@ description: 'Want to deploy IMGPrompt yourself? This guide provides detailed st
 
 IMGPrompt can be deployed on Cloudflare, Vercel, or any server.
 
+**Pick the fastest path:**
+
+- Need zero-config hosting: use Vercel one-click.
+- Want control and easy edits: run locally.
+- Prefer containers: pull the Docker image.
+
+All options keep the same multi-language experience and 5,000+ prompt library.
+
 ## Deployment Instructions
 
 **System Requirements:**
 
-- [Node.js 18.18](https://nodejs.org/) or later.
+- [Node.js 20.9](https://nodejs.org/) or later.
 - macOS, Windows (including WSL), and Linux are supported.
 
 ### Vercel Deployment
@@ -48,6 +56,8 @@ yarn build:lang zh-hant
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 You can start editing the page by modifying the `src/app/[locale]/page.tsx` file. The page will auto-update as you make changes.
+
+> Prefer another package manager? Replace `yarn` with `pnpm` or `npm` equivalents.
 
 ## Docker Deployment
 

@@ -3,12 +3,15 @@ pageType: home
 
 hero:
   name: IMGPrompt
-  text: Creative AI Art
-  tagline: Minimalist Image Prompt Editor
+  text: Native-Language Prompting
+  tagline: 5,000+ curated tags, bilingual, click-to-compose
   actions:
     - theme: brand
-      text: Quick Start
+      text: Try the App
       link: https://prompt.newzone.top/app/en
+    - theme: alt
+      text: Desktop Download
+      link: https://github.com/rockbenben/img-prompt/releases
     - theme: alt
       text: Guide
       link: /en/guide/
@@ -16,22 +19,22 @@ hero:
     src: /rspress-icon.png
     alt: Logo
 features:
-  - title: Abundant Prompt Resources
-    details: Carefully curated from online and community sources, with nearly five thousand deduped image prompts, providing endless inspiration and professional references for creators.
+  - title: 5,000+ Curated Prompts
+    details: Deduped library of styles, lighting, composition, and artists with bilingual labels so you stay in your native language while outputting fluent English.
     icon: 🔥
-  - title: Intelligent Prompt Recommendation
-    details: Advanced multilingual AI algorithm offers real-time relevant prompt suggestions, helping users quickly find precise expressions and significantly boost creative efficiency.
+  - title: Smart Suggestions & Translation
+    details: Keyword suggestions across 17 languages plus built-in translation to keep prompts compatible with every model.
     icon: 🧠
-  - title: Interactive Tag Selection
-    details: An intuitive interface for object and attribute tag selection, enabling instant prompt composition with bilingual labels, making AI creation seamless and accessible.
-    icon: 🏷️
-  - title: Advanced Prompt Editing
-    details: Professional features including prompt weight adjustment, negative prompting, and random color replacement, enabling precise control over AI image generation details and styles.
+  - title: One-Click Templates & Cleanup
+    details: Ready-made polish for portraits and quality boosts, prompt deduplication, and random color/style inspiration when you need a spark.
     icon: ✨
-  - title: Seamless Multilingual Conversion
-    details: Built-in smart translation engine instantly converts prompts from any language to professional English, effortlessly adapting to major AI drawing platforms.
-    icon: 🌍
-  - title: Cross-Platform Compatibility
-    details: Perfect support for Nano Banana, Midjourney, FLUX, Stable Diffusion and DALL·E, with one-click prompt copying, breaking creative boundaries.
+  - title: Interactive Click-to-Compose
+    details: Object/attribute tag picker with bilingual chips and instant insert/remove, keeping you in flow.
+    icon: 🏷️
+  - title: Open & Customizable Data
+    details: Prompt JSON lives in `src/app/data/prompt/*.json`; edit or extend to match your style, plus a data converter for batch imports.
+    icon: 📂
+  - title: Web & Desktop, Model-Ready
+    details: Use in browser or download native clients; one-click copy works with Nano Banana, Midjourney, FLUX, Stable Diffusion, DALL·E, and more.
     icon: 🌈
 ---

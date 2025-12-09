@@ -3,35 +3,38 @@ pageType: home
 
 hero:
   name: IMGPrompt
-  text: 创意 AI 绘图助手
-  tagline: 极简的图像提示词编辑器
+  text: 母语浏览，英文输出
+  tagline: 5000+ 精选提示词，双语点击组合
   actions:
     - theme: brand
-      text: 开始使用
+      text: 立即体验
       link: https://prompt.newzone.top/app/zh
     - theme: alt
-      text: 指南
+      text: 桌面端下载
+      link: https://github.com/rockbenben/img-prompt/releases
+    - theme: alt
+      text: 使用指南
       link: /guide/
   image:
     src: /rspress-icon.png
     alt: Logo
 features:
-  - title: 丰富 Prompt 资源
-    details: 精心整合网络和社区资源，去重后收录近五千条图像提示词，为创作者提供源源不断的灵感和专业参考。
+  - title: 5000+ 精选标签库
+    details: 每个标签就是可直接复制的英文提示词，附母语解释；涵盖风格、灯光、构图、艺术家等，母语浏览即可生成流畅英文。
     icon: 🔥
-  - title: 智能提示词推荐
-    details: 基于多语言输入的智能算法，实时推荐相关提示词，帮助用户快速找到精准表达，显著提升创作效率。
+  - title: 智能推荐与翻译
+    details: 输入中文/任意语言都会推荐对应英文标签，内置翻译让提示词对接各模型不踩坑。
     icon: 🧠
-  - title: 交互式标签选择
-    details: 直观的对象和属性标签选择界面，点击即可快速组合提示词，每个标签配有中英文对照，让 AI 创作变得轻松自如。
-    icon: 🏷️
-  - title: 高级提示词编辑
-    details: 支持提示词权重调整、否定提示、随机换色等专业技巧，精细控制 AI 图像生成的每一个细节和风格细微之处。
+  - title: 一键模板与清理
+    details: 人像灯光、高质量等一键补全，自动去重提高清晰度；随机色彩/风格灵感帮你快速破冰。
     icon: ✨
-  - title: 多语言无缝转换
-    details: 内置智能翻译引擎，可将任意语言提示词秒速转换为专业英文，轻松适配各大 AI 绘图平台。
-    icon: 🌍
-  - title: 全平台兼容
-    details: 完美支持 Nano Banana、Midjourney、FLUX、Stable Diffusion 和 DALL·E 等主流 AI 绘图工具，一键复制提示词，创作无界限。
+  - title: 点击式标签组合
+    details: 像贴纸一样点击增删对象/属性标签，双语显示，随点随用不中断。
+    icon: 🏷️
+  - title: 开放可自定义数据
+    details: 提示词 JSON 位于 `src/app/data/prompt/*.json`，可直接增改，或用数据转换器批量导入自己的关键词。
+    icon: 📂
+  - title: 网页与桌面，模型即用
+    details: 浏览器即用或下载桌面端，一键复制适配 Nano Banana、Midjourney、FLUX、Stable Diffusion、DALL·E 等主流模型。
     icon: 🌈
 ---

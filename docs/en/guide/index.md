@@ -8,42 +8,63 @@ description: 'Want to use IMGPrompt effectively? This guide covers its core feat
 
 # Introduction
 
-In today's rapidly evolving world of AI image generation, accurate prompt descriptions are crucial for creating high-quality work. However, for non-native English speakers, precisely describing their ideal scenes in English often presents a significant challenge. To address this pain point, I developed IMGPrompt — an AI prompt editor that breaks through language barriers. Regardless of your native language, IMGPrompt helps you accurately express your creative intent, making it easy to master mainstream AI image tools like Nano Banana, Midjourney, FLUX, Stable Diffusion, DALL·E, and even video generation tools like Sora.
+In today's fast-paced world of AI image generation, accurate prompts are the key to great visuals. For non-native English speakers, finding the right English phrasing is often the hardest part. **IMGPrompt** removes that barrier with a native-language-first prompt editor built for tools like Nano Banana, Midjourney, FLUX, Stable Diffusion, DALL·E, and even video generators like Sora.
 
-<a href="https://www.producthunt.com/posts/imgprompt?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-imgprompt" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=703738&theme=light" alt="IMGPrompt - Boost&#0032;your&#0032;creativity&#0032;with&#0032;smart&#0032;AI&#0032;prompt&#0032;editing | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+With over **5,000 curated prompt tags**, a clean interface, and native-language translations for every term, you can browse, click, and compose the perfect English prompt in seconds—no vocabulary struggle required.
 
-**IMGPrompt** offers a clean, intuitive interface that allows users to easily browse and combine the prompts they need. Each English prompt comes with native language translations, enabling users to quickly select or combine keywords with just a click or input. This dramatically simplifies the creative process and boosts efficiency, making AI creation more accessible than ever!
+[Experience IMGPrompt now and boost your creative workflow.](https://prompt.newzone.top/app/en)
 
-[Experience IMGPrompt now and boost your creative workflow!](https://prompt.newzone.top/app/en)
+## Why IMGPrompt?
 
-![IMGPrompt Interface Preview](https://img.newzone.top/2024-10-23-18-31-38.png?imageMogr2/format/webp)
+- Language stays native; output is fluent English for any AI art model.
+- 5,000+ vetted tags covering styles, lighting, composition, artists, and more.
+- Visual, click-to-compose workflow that keeps you in creative flow.
+
+## How It Works
+
+1. Browse prompt tags in your language.
+2. Click to add styles, lighting, subjects, and details.
+3. Copy the polished English prompt into your AI tool of choice.
 
 ## Features
 
-### Smart Suggestion System
+### 🏆 5000+ Native-to-English Library
 
-IMGPrompt offers intelligent suggestions based on the keywords you input (supports 14 languages, including Chinese and English). The system automatically suggests related prompts, helping you quickly find the right expression, saving time, and increasing creative efficiency.
+Massive prompt library with paired translations so you can verify meaning in your language while generating perfect English prompts.
+
+### 🧩 Smart Templates & Tools
+
+- One-click polish for popular needs like portrait lighting and high-quality tweaks.
+- Prompt deduplication and cleanup to keep outputs concise.
+- Random inspiration utilities for colors and styles when you need fresh ideas.
+
+### 🤖 Smart Suggestions & Translation
+
+- Intelligent suggestions from keywords in 17 languages.
+- Built-in translation to convert any prompt into English and keep it compatible across models.
 
 ![Smart Suggestion Demo](https://img.newzone.top/gif/imgprompt-ai-suggestions.webp)
 
-### Translation Feature
-
-The built-in translation feature allows you to convert prompts in any language to English, ensuring compatibility across various AI image generation tools. This is particularly useful in multilingual environments, eliminating language barriers.
-
 ![Translation Demo](https://img.newzone.top/gif/imgprompt-translate.webp)
 
-### Random Color Generator
+### 📂 Open & Customizable Database
 
-This feature allows users to quickly replace color-related keywords within prompts, introducing variety and fun into the creative process. It sparks inspiration and helps users explore diverse creative directions.
+All prompt data lives in open JSON (`src/app/data/prompt/*.json`). Edit directly to add your own tags or fit your style.
 
-### Additional Features
+### 🖥️ Cross-Platform Client
 
-- **Prompt Tagging**: Prompts can be tagged with keywords separated by commas. The system automatically deduplicates and matches tags, providing native language translations for easier understanding and usage.
-- **Interactive Editing**: Users can quickly add or remove prompts by clicking on tags, streamlining the editing process.
-- **Categorized Tag Display**: Selected tags are displayed by category, helping you quickly search and edit prompts.
-- **Character Count**: IMGPrompt includes a built-in character counter that suggests keeping your prompt length under 380 characters for optimal generation results.
-- **Localization**: In addition to the translation feature, IMGPrompt operates entirely in your local language without relying on third-party databases or services.
+Prefer desktop? Download Windows, macOS, or Linux builds from the [GitHub Releases](https://github.com/rockbenben/img-prompt/releases) page.
 
-The translation feature in IMGPrompt uses **DeepL** and **Google Translate** APIs. We welcome feedback and bug reports.
+### 🌍 Multi-Language Support
 
-Additionally, IMGPrompt supports various data editing scenarios. By using the [IMGPrompt Data Converter](https://tools.newzone.top/data-parser/img-prompt), you can easily batch import and convert data.
+Interface and database adapt to 17 languages, plus a built-in translation utility for custom text inputs.
+
+### ⚡ Workflow Helpers
+
+- Tagging with auto-deduplication and category grouping for quick edits.
+- Interactive tag clicks to add/remove snippets instantly.
+- Character counter guidance (keep prompts under ~380 characters for best results).
+
+IMGPrompt uses Youdao, MyMemory, and Google Translate APIs for translations—feedback and bug reports are welcome.
+
+For bulk data work, try the [IMGPrompt Data Converter](https://tools.newzone.top/data-parser/img-prompt) to import or transform prompt datasets.

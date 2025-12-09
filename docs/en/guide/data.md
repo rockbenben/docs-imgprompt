@@ -31,10 +31,10 @@ Each prompt corresponds to a JSON object with the following structure:
 
 ```json
 {
-  "displayName": "prompt1",        // English prompt (must be unique)
+  "displayName": "prompt1", // English prompt (must be unique)
   "langName": "Localized translation", // Name shown in the UI
-  "object": "Main category",       // Primary classification for organization
-  "attribute": "Subcategory",      // Secondary classification or tag
+  "object": "Main category", // Primary classification for organization
+  "attribute": "Subcategory", // Secondary classification or tag
   "description": "Optional description of the prompt" // (Optional) Tooltip explanation
 }
 ```
@@ -43,11 +43,17 @@ Explanation:
 
 | Field         | Required | Description                                                |
 | ------------- | -------- | ---------------------------------------------------------- |
-| `displayName` | ✅ Yes    | Unique English prompt                   |
-| `langName`    | ✅ Yes    | Name displayed in the UI (localized or custom translation) |
-| `object`      | ✅ Yes    | Main category or type, e.g., "Character", "Style", etc.    |
-| `attribute`   | ✅ Yes    | Subcategory or descriptive tag for further classification  |
-| `description` | ❌ No     | Tooltip text shown on hover to provide more context        |
+| `displayName` | ✅ Yes   | Unique English prompt                                      |
+| `langName`    | ✅ Yes   | Name displayed in the UI (localized or custom translation) |
+| `object`      | ✅ Yes   | Main category or type, e.g., "Character", "Style", etc.    |
+| `attribute`   | ✅ Yes   | Subcategory or descriptive tag for further classification  |
+| `description` | ❌ No    | Tooltip text shown on hover to provide more context        |
+
+### Data hygiene tips
+
+- Keep `displayName` unique; duplicates are ignored and make suggestions noisy.
+- Reuse consistent `object`/`attribute` values across languages to keep navigation aligned.
+- Keep `langName` concise so tag chips stay readable.
 
 ## Adding Custom Prompts
 
