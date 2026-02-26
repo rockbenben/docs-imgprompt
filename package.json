@@ -1,6 +1,6 @@
 {
   "name": "web-docs-imgprompt",
-  "version": "1.0.2",
+  "version": "1.1.2",
   "private": true,
   "scripts": {
     "build": "rspress build",
@@ -12,16 +12,15 @@
     "outdated": "ncu"
   },
   "dependencies": {
-    "rspress": "^1.47.0",
-    "rspress-plugin-sitemap": "^1.2.1"
+    "@rspress/core": "^2.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@eslint/js": "^9.19.0",
-    "@types/node": "^18.11.17",
-    "eslint": "^9.19.0",
-    "globals": "^15.14.0",
-    "prettier": "^3.4.2",
-    "typescript-eslint": "^8.22.0"
+    "@rspress/plugin-llms": "^2.0.3",
+    "@rspress/plugin-sitemap": "^2.0.3",
+    "@types/node": "^22.8.1",
+    "@types/react": "^19.2.13",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   }
 }
