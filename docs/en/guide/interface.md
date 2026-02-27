@@ -2,7 +2,7 @@
 head:
   - - meta
     - property: og:title
-      content: 'IMGPrompt Interface Guide: Master AI Art Prompt Editing'
+      content: "IMGPrompt Interface Guide: Master AI Art Prompt Editing"
 description: "How to use IMGPrompt's powerful features? This guide explains the interface layout, tag selection, smart suggestions, and shortcuts to help you master AI art prompt editing."
 ---
 
@@ -16,7 +16,7 @@ At the top of the interface, you will see two areas: "Select Object" and "Select
 
 ### 2. Browse and Insert Prompts
 
-In the "Select Tag" area, you will see tags in different colors, each displaying an English prompt along with its native language translation. When you click on a tag, it will be automatically added to the prompt text box for quick selection.
+In the "Select Tag" area, you will see tags in different colors, each displaying an English prompt along with its native language translation. When you click on a tag, it will be automatically added to the prompt text box for quick selection. Additionally, if the tag has a corresponding example image, the interface will automatically update to display its preview image, helping you intuitively understand the prompt's actual effect.
 
 ### 3. Edit Prompts and Suggestions
 

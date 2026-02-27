@@ -2,8 +2,8 @@
 head:
   - - meta
     - property: og:title
-      content: 'IMGPrompt Guide: Getting Started with the AI Art Prompt Editor'
-description: 'Want to use IMGPrompt effectively? This guide covers its core features, including smart suggestions, multi-language translation, and advanced editing, helping you master AI art prompts.'
+      content: "IMGPrompt Guide: Getting Started with the AI Art Prompt Editor"
+description: "Want to use IMGPrompt effectively? This guide covers its core features, including smart suggestions, multi-language translation, and advanced editing, helping you master AI art prompts."
 ---
 
 # Introduction
@@ -46,6 +46,10 @@ Massive prompt library with paired translations so you can verify meaning in you
 ![Smart Suggestion Demo](https://img.newzone.top/gif/imgprompt-ai-suggestions.webp)
 
 ![Translation Demo](https://img.newzone.top/gif/imgprompt-translate.webp)
+
+### 🖼️ Real-time Image Previews
+
+When a prompt tag with an example image is selected or hovered, the preview image at the top of the interface updates automatically. This "what you see is what you get" experience helps you intuitively understand the actual effect of different prompts.
 
 ### 📂 Open & Customizable Database
 
