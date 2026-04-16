@@ -38,3 +38,23 @@ features:
     details: Use in browser or download native clients; one-click copy works with Nano Banana, Midjourney, FLUX, Stable Diffusion, DALL·E, and more.
     icon: 🌈
 ---
+
+## What is IMGPrompt
+
+[IMGPrompt](https://prompt.newzone.top/app/en) is an AI art prompt editor built for non-native English speakers. We curated **5,000+ English prompts**, each paired with native-language labels and categories. Browse in your own language, click to compose, and get clean English prompts ready for **Nano Banana, Midjourney, FLUX, Stable Diffusion, DALL·E, Sora**, and other image/video models.
+
+## Why IMGPrompt
+
+- **Native-language UI, English output**: every prompt has a translated label so you always know what you're picking.
+- **17-language smart suggestions**: type in any language, get matching English tags instantly.
+- **Click-to-compose tags**: add/remove objects, attributes, styles like stickers — no typing friction.
+- **One-click templates & cleanup**: portrait lighting, quality boosts, prompt dedup and polish in one tap.
+- **Open & extensible data**: prompts live as JSON (`src/app/data/prompt/*.json`), fork-and-edit friendly.
+- **Web and desktop**: browser version runs anywhere; Windows / macOS (Intel & Apple Silicon) / Linux clients for offline use.
+
+## Quick Start
+
+- Web app: <https://prompt.newzone.top/app/en>
+- Desktop downloads: <https://github.com/rockbenben/img-prompt/releases>
+- User guide: [/en/guide/](/en/guide/)
+- Source code: <https://github.com/rockbenben/img-prompt>
