@@ -8,7 +8,7 @@ description: "Want to use IMGPrompt effectively? This guide covers its core feat
 
 # Introduction
 
-In today's fast-paced world of AI image generation, accurate prompts are the key to great visuals. For non-native English speakers, finding the right English phrasing is often the hardest part. **IMGPrompt** removes that barrier with a native-language-first prompt editor built for tools like Nano Banana, Midjourney, FLUX, Stable Diffusion, DALL·E, and even video generators like Sora.
+In today's fast-paced world of AI image generation, accurate prompts are the key to great visuals. For non-native English speakers, finding the right English phrasing is often the hardest part. **IMGPrompt** removes that barrier with a native-language-first prompt editor built for AI image and video tools like Nano Banana, Midjourney, FLUX, Seedance, Veo, and Kling (also compatible with Stable Diffusion and DALL·E).
 
 With over **5,000 curated prompt tags**, a clean interface, and native-language translations for every term, you can browse, click, and compose the perfect English prompt in seconds—no vocabulary struggle required.
 
@@ -40,7 +40,7 @@ Massive prompt library with paired translations so you can verify meaning in you
 
 ### 🤖 Smart Suggestions & Translation
 
-- Intelligent suggestions from keywords in 17 languages.
+- Intelligent suggestions from keywords in 18 languages.
 - Built-in translation to convert any prompt into English and keep it compatible across models.
 
 ![Smart Suggestion Demo](https://img.newzone.top/gif/imgprompt-ai-suggestions.webp)
@@ -61,7 +61,7 @@ Prefer desktop? Download Windows, macOS, or Linux builds from the [GitHub Releas
 
 ### 🌍 Multi-Language Support
 
-Interface and database adapt to 17 languages, plus a built-in translation utility for custom text inputs.
+Interface and database adapt to 18 languages, plus a built-in translation utility for custom text inputs.
 
 ### ⚡ Workflow Helpers
 
