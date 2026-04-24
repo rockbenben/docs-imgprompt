@@ -3,72 +3,95 @@ head:
   - - meta
     - property: og:title
       content: "IMGPrompt Guide: Getting Started with the AI Art Prompt Editor"
-description: "Want to use IMGPrompt effectively? This guide covers its core features, including smart suggestions, multi-language translation, and advanced editing, helping you master AI art prompts."
+description: "IMGPrompt user guide: 5,000+ bilingual AI prompts, hover to preview images, click to zoom in a lightbox, dual tag modes, shareable URLs, and 18-language smart suggestions — works with Nano Banana, Midjourney, FLUX, Veo, and more."
 ---
 
 # Introduction
 
-In today's fast-paced world of AI image generation, accurate prompts are the key to great visuals. For non-native English speakers, finding the right English phrasing is often the hardest part. **IMGPrompt** removes that barrier with a native-language-first prompt editor built for AI image and video tools like Nano Banana, Midjourney, FLUX, Seedance, Veo, and Kling (also compatible with Stable Diffusion and DALL·E).
+In AI image and video generation, the right prompt is everything. For non-native English speakers, the hardest part is finding the right English phrasing. **IMGPrompt** removes that barrier with a native-language-first prompt editor built for Nano Banana, GPT-Image-2, Midjourney, FLUX, Seedance, Veo, Kling and other image/video models (also compatible with Stable Diffusion and DALL·E).
 
-With over **5,000 curated prompt tags**, a clean interface, and native-language translations for every term, you can browse, click, and compose the perfect English prompt in seconds—no vocabulary struggle required.
+With over **5,040 curated prompt tags**, a clean interface, native-language translations for every term, and instant image previews for tagged entries, you can browse, click, and compose the perfect English prompt in seconds.
 
-[Experience IMGPrompt now and boost your creative workflow.](https://prompt.newzone.top/app/en)
+[Try IMGPrompt now and boost your creative workflow.](https://prompt.newzone.top/app/en)
 
-## Why IMGPrompt?
+![IMGPrompt UI](https://img.newzone.top/2024-10-23-18-31-38.png?imageMogr2/format/webp)
 
-- Language stays native; output is fluent English for any AI art model.
-- 5,000+ vetted tags covering styles, lighting, composition, artists, and more.
-- Visual, click-to-compose workflow that keeps you in creative flow.
+## Why IMGPrompt
+
+- Browse in your own language, output fluent English, works with all mainstream image/video models.
+- 5,000+ curated tags across 16 main categories — styles, lighting, composition, camera, artists, and more.
+- Visual click-to-compose with hover previews to keep you in creative flow.
 
 ## How It Works
 
-1. Browse prompt tags in your language.
-2. Click to add styles, lighting, subjects, and details.
-3. Copy the polished English prompt into your AI tool of choice.
+1. Browse 16 main categories in your native language.
+2. Drill down: main category → subcategory.
+3. Click a tag to insert it; hover to preview the example; click the preview to zoom.
+4. Copy the generated English prompt into any AI tool.
 
 ## Features
 
-### 🏆 5000+ Native-to-English Library
+### 🏆 5,000+ Native-to-English Library
 
-Massive prompt library with paired translations so you can verify meaning in your language while generating perfect English prompts.
+16 main categories, hundreds of subcategories, and every tag paired with a native-language label so you know what you're picking.
 
-### 🧩 Smart Templates & Tools
+### 🖼️ Hover to Preview, Click to Zoom
 
-- One-click polish for popular needs like portrait lighting and high-quality tweaks.
-- Prompt deduplication and cleanup to keep outputs concise.
-- Random inspiration utilities for colors and styles when you need fresh ideas.
+Entries with example images show a preview tooltip on hover. Click the preview to open a lightbox:
+
+- **Zoom in/out** with scroll or buttons to see detail.
+- **Rotate** at 45° / 90° increments for multiple angles.
+- **Download** to save to your local reference library.
+- **Keyboard**: `Esc` closes; arrow keys navigate (where applicable).
+
+Closing the lightbox preserves your browsing and selection state — no flow interruption.
+
+### 🎨 Dual Modes: Multicolor vs Monochrome
+
+- **Multicolor** uses category-based color blocks — strong visual hierarchy, great for browsing and inspiration.
+- **Monochrome** maximizes information density — great for quick scanning and comparison.
+- Toggle lives in the top-right of the tag section; preference is saved locally.
+
+### 🔗 Share Your Current View
+
+The URL carries your current browsing state as `?object=<main>&attribute=<sub>`. Send the link to a teammate and they open to the exact same category — perfect for team workflows and tutorials.
 
 ### 🤖 Smart Suggestions & Translation
 
-- Intelligent suggestions from keywords in 18 languages.
-- Built-in translation to convert any prompt into English and keep it compatible across models.
+- Type in any of 18 languages to get up to 10 matching tag suggestions.
+- Built-in translator converts arbitrary text to English; multi-service fallback (Google → Youdao → MyMemory) with race protection.
+- 1.5s debounce to avoid spamming APIs.
 
 ![Smart Suggestion Demo](https://img.newzone.top/gif/imgprompt-ai-suggestions.webp)
 
 ![Translation Demo](https://img.newzone.top/gif/imgprompt-translate.webp)
 
-### 🖼️ Real-time Image Previews
+### 🧩 One-Click Templates & Cleanup
 
-When a prompt tag with an example image is selected or hovered, the preview image at the top of the interface updates automatically. This "what you see is what you get" experience helps you intuitively understand the actual effect of different prompts.
+- Quick insert: portrait lighting, quality polish, negative prompts.
+- Comma-based tagging: comma input triggers auto-dedup, grouping, and chip rendering.
+- Random color swap: replace color words at random to spark fresh ideas.
 
-### 📂 Open & Customizable Database
+### 📊 Character Counter
 
-All prompt data lives in open JSON (`src/app/data/prompt/*.json`). Edit directly to add your own tags or fit your style.
+Real-time length counter — keep prompts **under ~380 characters** for better model reproducibility.
+
+### 🌓 Light / Dark Theme
+
+Light, Dark, and Follow-System modes, powered by the antd 6 token system — easy on the eyes at night.
+
+### 🔒 Fully Local, Fully Private
+
+Everything runs in the browser. No login, no upload, no backend. State persists across tab switches.
+
+### 📂 Open & Customizable Data
+
+Prompt data lives in open JSON (`src/app/data/prompt/*.json`). Edit directly or use the [IMGPrompt Data Converter](https://tools.newzone.top/data-parser/img-prompt) for bulk import.
 
 ### 🖥️ Cross-Platform Client
 
-Prefer desktop? Download Windows, macOS, or Linux builds from the [GitHub Releases](https://github.com/rockbenben/img-prompt/releases) page.
+Prefer desktop? Grab Windows, macOS (Intel + Apple Silicon), or Linux builds from [GitHub Releases](https://github.com/rockbenben/img-prompt/releases).
 
-### 🌍 Multi-Language Support
+### 🌍 18 Languages
 
-Interface and database adapt to 18 languages, plus a built-in translation utility for custom text inputs.
-
-### ⚡ Workflow Helpers
-
-- Tagging with auto-deduplication and category grouping for quick edits.
-- Interactive tag clicks to add/remove snippets instantly.
-- Character counter guidance (keep prompts under ~380 characters for best results).
-
-IMGPrompt uses Youdao, MyMemory, and Google Translate APIs for translations—feedback and bug reports are welcome.
-
-For bulk data work, try the [IMGPrompt Data Converter](https://tools.newzone.top/data-parser/img-prompt) to import or transform prompt datasets.
+UI and prompt database in: English, Simplified/Traditional Chinese, Japanese, Korean, Spanish, French, German, Portuguese, Russian, Arabic, Hindi, Bengali, Indonesian, Vietnamese, Thai, Turkish, Italian.

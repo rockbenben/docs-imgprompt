@@ -3,7 +3,7 @@ head:
   - - meta
     - property: og:title
       content: 'IMGPrompt Desktop Client Download | Windows, macOS & Linux'
-description: 'Want to use IMGPrompt on your desktop? Download the official client for Windows, macOS (Intel/M1/M2), and Linux for a native app experience and more convenient AI art creation.'
+description: 'Download the IMGPrompt desktop client for Windows (.exe/.msi), macOS Intel & Apple Silicon (.dmg), and Linux (.deb/.AppImage/.rpm) — native windows, offline use, and a distraction-free AI prompt workspace.'
 ---
 
 # Desktop Client

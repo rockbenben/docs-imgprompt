@@ -4,7 +4,7 @@ pageType: home
 hero:
   name: IMGPrompt
   text: Native-Language Prompting
-  tagline: 5,000+ curated tags, bilingual, click-to-compose
+  tagline: 5,000+ bilingual tags · click to compose · hover to preview
   actions:
     - theme: brand
       text: Try the App
@@ -20,37 +20,40 @@ hero:
     alt: Logo
 features:
   - title: 5,000+ Curated Prompts
-    details: Deduped library of styles, lighting, composition, and artists with bilingual labels so you stay in your native language while outputting fluent English.
+    details: 16 main categories and hundreds of subcategories. Every tag is a ready-to-copy English prompt paired with a native-language label.
     icon: 🔥
-  - title: Smart Suggestions & Translation
-    details: Keyword suggestions across 18 languages plus built-in translation to keep prompts compatible with every model.
+  - title: Hover to Preview, Click to Zoom
+    details: Hover any tagged-with-image entry for an instant preview. Click the preview to open a lightbox — zoom, rotate, download. WYSIWYG prompt picking.
+    icon: 🖼️
+  - title: Dual Tag Modes
+    details: Multicolor mode for high visual contrast, monochrome mode for information density. Toggle instantly; preference is remembered.
+    icon: 🎨
+  - title: 18-Language Smart Suggestions
+    details: Type in any language to get matching English tags, backed by translation fallback (Google / Youdao / MyMemory) with race protection.
     icon: 🧠
-  - title: One-Click Templates & Cleanup
-    details: Ready-made polish for portraits and quality boosts, prompt deduplication, and random color/style inspiration when you need a spark.
-    icon: ✨
-  - title: Interactive Click-to-Compose
-    details: Object/attribute tag picker with bilingual chips and instant insert/remove, keeping you in flow.
-    icon: 🏷️
-  - title: Open & Customizable Data
-    details: Prompt JSON lives in `src/app/data/prompt/*.json`; edit or extend to match your style, plus a data converter for batch imports.
-    icon: 📂
+  - title: Shareable URLs
+    details: The URL's `?object=&attribute=` sync with your browsing state — share the link and teammates see the exact same category view.
+    icon: 🔗
   - title: Web & Desktop, Model-Ready
-    details: Use in browser or download native clients; one-click copy works with Nano Banana, Midjourney, FLUX, Seedance, Veo, Kling, and more.
+    details: Browser or native client; one-click copy for Nano Banana, GPT-Image-2, Midjourney, FLUX, Seedance, Veo, Kling, and more.
     icon: 🌈
+  - title: Fully Local & Private
+    details: Runs entirely in the browser. No login, no upload, no backend. Light/dark theme tracks system automatically.
+    icon: 🔒
 ---
 
 ## What is IMGPrompt
 
-[IMGPrompt](https://prompt.newzone.top/app/en) is an AI art prompt editor built for non-native English speakers. We curated **5,000+ English prompts**, each paired with native-language labels and categories. Browse in your own language, click to compose, and get clean English prompts ready for **Nano Banana, Midjourney, FLUX, Seedance, Veo, Kling**, and other image/video models (also compatible with Stable Diffusion and DALL·E syntax).
+[IMGPrompt](https://prompt.newzone.top/app/en) is an AI image/video prompt editor built for non-native English speakers. We curated **5,000+ English prompts** across 16 main categories and hundreds of subcategories, each paired with native-language labels. Browse in your own language, click to compose, and get clean English prompts ready for **Nano Banana, GPT-Image-2, Midjourney, FLUX, Seedance, Veo, Kling**, and more (also compatible with Stable Diffusion and DALL·E syntax).
 
 ## Why IMGPrompt
 
 - **Native-language UI, English output**: every prompt has a translated label so you always know what you're picking.
-- **18-language smart suggestions**: type in any supported language, get matching English tags instantly.
-- **Click-to-compose tags**: add/remove objects, attributes, styles like stickers — no typing friction.
-- **One-click templates & cleanup**: portrait lighting, quality boosts, prompt dedup and polish in one tap.
-- **Open & extensible data**: prompts live as JSON (`src/app/data/prompt/*.json`), fork-and-edit friendly.
-- **Web and desktop**: browser version runs anywhere; Windows / macOS (Intel & Apple Silicon) / Linux clients for offline use.
+- **Hover to preview**: entries with images auto-show a preview on hover; click the preview for a full-screen lightbox (zoom, rotate, download).
+- **Dual tag modes**: switch between multicolor and monochrome with one click; your preference is remembered.
+- **18 interface languages**: English, Simplified/Traditional Chinese, Japanese, Korean, Spanish, French, German, Portuguese, Russian, Arabic, Hindi, Bengali, Indonesian, Vietnamese, Thai, Turkish, Italian — UI and prompt library fully localized.
+- **Shareable URLs**: the URL remembers your current category so teammates open the same view.
+- **Fully local**: no login, no upload, no backend. Works offline with Windows / macOS (Intel & Apple Silicon) / Linux desktop clients.
 
 ## Quick Start
 

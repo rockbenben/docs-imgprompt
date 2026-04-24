@@ -3,78 +3,85 @@ head:
   - - meta
     - property: og:title
       content: 'IMGPrompt Prompt Data Structure & Customization Guide'
-description: 'Want to add your own prompts to IMGPrompt? This page details the prompt data structure and guides you on using the data converter to add custom prompts, expanding your AI art library.'
+description: 'IMGPrompt prompt data schema explained: displayName, langName, object, attribute, description, and preview fields with image guidelines; import custom prompts in bulk via the data converter to extend your AI art library.'
 ---
 
 # Prompt Data
 
-The prompt resources for **IMGPrompt** are collected from online sources, including [promptoMANIA](https://promptomania.com/midjourney-prompt-builder/) and [sd-webui-prompt-all-in-one](https://github.com/Physton/sd-webui-prompt-all-in-one/blob/main/group_tags/zh_CN.yaml). After deduplication and standardization, nearly 5,000 prompts have been compiled. These can be used in various AI image generation and text-to-video scenarios.
+IMGPrompt's prompt library is compiled from online sources, [promptoMANIA](https://promptomania.com/midjourney-prompt-builder/), [sd-webui-prompt-all-in-one](https://github.com/Physton/sd-webui-prompt-all-in-one/blob/main/group_tags/zh_CN.yaml), and [awesome-gpt-image-2-prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts) (CC BY 4.0). After deduplication, standardization, and localization across 18 languages, we have **5,000+ entries** across 16 main categories and hundreds of subcategories.
 
-## Data Structure Overview
+## Data Structure
 
-All prompt data is stored in the project directory under `src/app/data` with the following structure:
+All prompt data lives under `src/app/data`:
 
 ```yaml
 src
 └── app
     └── data
-        ├── prompt             # Stores prompts in various languages
-        │   ├── prompt-en.json # English prompts
-        │   ├── prompt-zh.json # Chinese prompts
-        │   ├── prompt-es.json # Spanish prompts
-        │   └── ......         # Prompts in other languages
-        ├── constants.tsx      # Application constants (usually no need to modify)
-        └── prompt-custom.json # User-defined custom prompts (loaded for all languages by default)
+        ├── prompt              # Prompts in 18 languages
+        │   ├── prompt-zh.json  # Simplified Chinese (source of truth; others derived from it)
+        │   ├── prompt-en.json  # English
+        │   ├── prompt-ja.json  # Japanese
+        │   └── ......          # 15 other languages
+        └── prompt-custom.json  # User-defined prompts (loaded for all languages)
 ```
 
-Each prompt corresponds to a JSON object with the following structure:
+Each prompt is a JSON object:
 
 ```json
 {
-  "displayName": "prompt1", // English prompt (must be unique)
-  "langName": "Localized translation", // Name shown in the UI
-  "object": "Main category", // Primary classification for organization
-  "attribute": "Subcategory", // Secondary classification or tag
-  "description": "Optional description of the prompt" // (Optional) Tooltip explanation
+  "displayName": "portrait",
+  "langName": "Portrait",
+  "object": "Character",
+  "attribute": "Basics",
+  "description": "(Optional) description or author credit",
+  "preview": "(Optional) preview image URL"
 }
 ```
 
-Explanation:
+### Field Reference
 
-| Field         | Required | Description                                                |
-| ------------- | -------- | ---------------------------------------------------------- |
-| `displayName` | ✅ Yes   | Unique English prompt                                      |
-| `langName`    | ✅ Yes   | Name displayed in the UI (localized or custom translation) |
-| `object`      | ✅ Yes   | Main category or type, e.g., "Character", "Style", etc.    |
-| `attribute`   | ✅ Yes   | Subcategory or descriptive tag for further classification  |
-| `description` | ❌ No    | Tooltip text shown on hover to provide more context        |
+| Field         | Required | Description                                                                            |
+| ------------- | -------- | -------------------------------------------------------------------------------------- |
+| `displayName` | ✅ Yes   | Unique English prompt — the actual text inserted into the prompt box                   |
+| `langName`    | ✅ Yes   | Localized label shown in the UI                                                        |
+| `object`      | ✅ Yes   | Main category (e.g., Character, Environment, Photography, Art Style)                   |
+| `attribute`   | ✅ Yes   | Subcategory (e.g., Basics, Expression, Camera Focus, Portrait)                         |
+| `description` | ❌ No    | Tooltip text on hover (e.g., author credits, usage notes)                              |
+| `preview`     | ❌ No    | Preview image URL — shown inside the hover tooltip and **clickable to open a lightbox** |
 
-### Data hygiene tips
+> 💡 The `preview` field powers the hover-to-preview + click-to-zoom experience. Entries with a preview image get a small indicator icon and stand out visually.
 
-- Keep `displayName` unique; duplicates are ignored and make suggestions noisy.
-- Reuse consistent `object`/`attribute` values across languages to keep navigation aligned.
-- Keep `langName` concise so tag chips stay readable.
+### Data Hygiene Tips
+
+- Keep `displayName` unique — duplicates are ignored and reduce suggestion quality.
+- Reuse the same `object` / `attribute` values across languages so navigation stays consistent.
+- Keep `langName` concise to avoid chip truncation.
+- For `preview`, WebP ≤ 150 KB with a 1:1 (square) aspect ratio renders best inside the tooltip.
 
 ## Adding Custom Prompts
 
-To expand the prompt list, you can use the [IMGPrompt Data Converter](https://tools.newzone.top/zh/data-parser/img-prompt) to convert your custom data into the standard format. The converted results should be saved to the path `src/app/data/prompt-custom.json`. This file is automatically loaded at app startup and applies to all language settings.
+Use the [IMGPrompt Data Converter](https://tools.newzone.top/data-parser/img-prompt) to convert your data to the standard shape, then save to `src/app/data/prompt-custom.json`. This file is loaded at startup and applies to all languages.
 
-Here is an example of the `prompt-custom.json` format:
+Example:
 
 ```json
 [
   {
-    "displayName": "prompt1",
-    "langName": "Translation of Prompt 1",
-    "object": "Main Category",
-    "attribute": "Subcategory"
+    "displayName": "cyberpunk cityscape",
+    "langName": "Cyberpunk Cityscape",
+    "object": "Environment",
+    "attribute": "Scene"
   },
   {
-    "displayName": "prompt2",
-    "langName": "Translation of Prompt 2",
-    "object": "Main Category",
-    "attribute": "Subcategory",
-    "description": "Optional description"
+    "displayName": "cinematic lighting",
+    "langName": "Cinematic Lighting",
+    "object": "Lighting",
+    "attribute": "Basics",
+    "description": "Soft directional light + rim light for depth",
+    "preview": "https://example.com/preview/cinematic.webp"
   }
 ]
 ```
+
+Custom entries follow the exact same display rules as built-ins: include a `preview` to enable the hover-preview + click-to-zoom treatment.

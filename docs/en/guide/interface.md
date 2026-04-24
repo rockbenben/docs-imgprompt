@@ -3,37 +3,100 @@ head:
   - - meta
     - property: og:title
       content: "IMGPrompt Interface Guide: Master AI Art Prompt Editing"
-description: "How to use IMGPrompt's powerful features? This guide explains the interface layout, tag selection, smart suggestions, and shortcuts to help you master AI art prompt editing."
+description: "IMGPrompt interface walkthrough: 3-step category navigation for bilingual tags, hover to preview example images, click to open a lightbox (zoom, rotate, download), multicolor/monochrome toggle, and shareable URLs for team workflows."
 ---
 
 # Interface Overview
 
-### 1. Select Prompt Range
-
-At the top of the interface, you will see two areas: "Select Object" and "Select Attribute." Click on the corresponding tabs (such as "Character," "Expression," "Action," etc.) to narrow down the range of prompts and help you choose the desired prompt more accurately.
+The IMGPrompt UI splits into a **left picking area** and a **right result area**, guided by three numbered steps top-to-bottom: **1 Select Object → 2 Select Attribute → 3 Select Tags**.
 
 ![Interface Overview](https://img.newzone.top/2024-10-23-18-31-38.png?imageMogr2/format/webp)
 
-### 2. Browse and Insert Prompts
+## 1. Select Object (Main Category)
 
-In the "Select Tag" area, you will see tags in different colors, each displaying an English prompt along with its native language translation. When you click on a tag, it will be automatically added to the prompt text box for quick selection. Additionally, if the tag has a corresponding example image, the interface will automatically update to display its preview image, helping you intuitively understand the prompt's actual effect.
+The **① Select Object** row at the top lists 16 main categories such as **Character / Environment / Photography / Art Style / Lighting**. Click one to switch your current subject area.
 
-### 3. Edit Prompts and Suggestions
+## 2. Select Attribute (Subcategory)
 
-In the prompt text box on the right, you can directly edit or enter custom prompts. **Please separate different prompts with commas**; the system will automatically handle tagging.
+**② Select Attribute** dynamically updates based on your main category. For "Character" you'll see **Basics / Expression / Action / Portrait / Apparel** etc. Click to narrow scope further.
 
-IMGPrompt will automatically match related prompts based on your input and provide intelligent suggestions. Click on a suggested tag to insert the corresponding prompt. If the last prompt matches an entry in the prompt library, it will be displayed with a green checkmark label.
+## 3. Browse & Insert Tags
 
-![](https://img.newzone.top/2024-12-23-22-13-55.png?imageMogr2/format/webp)
+**③ Select Tags** shows all prompts in the current scope, bilingual (English `displayName` + native-language `langName`).
 
-### 4. Use Common Features
+### Click to Insert / Remove
 
-- **Quick Insert**: Click the "Portrait Light" and "Polish Prompts" buttons to quickly insert commonly used prompts.
-- **Negative Prompt**: Use the "Negative Prompts" button to copy common negative prompts, helping optimize image generation results.
-- **Translation**: Click the "Translate" button to convert prompts in any language into English, ensuring compatibility with different AI tools and helping non-English users overcome language barriers.
-- **Random Color Replace**: This feature randomly replaces color-related words in your prompts to spark creative inspiration.
+Click any tag to add it to the prompt box; click a selected tag to remove it. Duplicates are automatically ignored.
 
-### 5. Copy Results and Clear
+### Hover to Preview, Click to Zoom 🖼️
 
-- **Copy Result**: After editing, click the "Copy Result" button to copy the generated prompts to your clipboard for easy pasting into your chosen AI image generation tool.
-- **Clear and Reset**: Click the "Clear" button to quickly remove all selected tags and entered prompts, allowing you to start over with editing.
+Tags with example images show a preview tooltip on hover. **Click the preview image** to open the lightbox:
+
+- **Zoom in/out** with scroll or buttons to inspect fine detail.
+- **Rotate** by 45° / 90° to check multiple angles.
+- **Download** to save to your local reference library.
+- **Keyboard**: `Esc` to close; arrow keys where applicable.
+
+Closing the lightbox keeps your current browsing position and selections intact — no flow breakage.
+
+### Multicolor vs Monochrome: One-Click Toggle 🎨
+
+The mode switcher in the top-right offers two visual styles:
+
+- **Multicolor** uses category-based color blocks — strong hierarchy, great for browsing and inspiration.
+- **Monochrome** packs more information per row — great for quick scanning and comparison against what you've already selected.
+
+Your preference persists in local storage for future visits.
+
+## 4. Right Panel — Edit & Suggest
+
+### Edit Freely
+
+The prompt textarea accepts arbitrary input. **Separate entries with commas** (`,`) and the system auto-tokenizes, dedups, and matches against the library.
+
+### Smart Suggestions
+
+Based on your last-typed word, up to **10 related tags** are recommended (works in Chinese or English). Click to insert. If the last word matches a library entry, it renders as a green checkmarked chip.
+
+![Suggestions](https://img.newzone.top/2024-12-23-22-13-55.png?imageMogr2/format/webp)
+
+### Action Buttons
+
+| Button | Purpose |
+| --- | --- |
+| **Portrait Light** | One-click portrait lighting template (soft light, rim light, etc.). |
+| **Polish Prompts** | Append quality / detail / clarity enhancers. |
+| **Negative Prompts** | Copy commonly used negatives (blurry, bad anatomy, etc.). |
+| **Translate** | Convert any language to English (1.5s debounce), with multi-service fallback. |
+| **Random Color** | Randomly swap color words to spark fresh ideas. |
+| **Copy Result** | Copy the final prompt to clipboard for any AI tool. |
+| **Clear** | Reset selections and input to start fresh. |
+
+### Character Counter 📊
+
+Live character count — aim for **≤ 380 characters** for better model reproducibility.
+
+## 5. Shareable URLs 🔗
+
+Your browsing state syncs to the URL:
+
+```
+https://prompt.newzone.top/app/en?object=Character&attribute=Portrait
+```
+
+Share the link and your teammate opens to the exact same category view. Great for:
+
+- Team collaboration around a focused tag set
+- Linking to a specific category in tutorials or articles
+- Bookmarking your most-used starting points
+
+## 6. Theme & Language
+
+- **Light / Dark theme** — follows system or toggles manually from the nav bar.
+- **18 languages** — UI, tag library, and category names are fully localized. Switch from the language dropdown in the nav.
+
+## 7. Quality-of-Life Details
+
+- **State persists across sessions** — selections, theme, and tag mode are remembered locally.
+- **Runs 100% in-browser** — no login, no upload, no backend.
+- **Keyboard accessible** — all tags support Tab focus + `Enter` / `Space` activation; screen-reader friendly.

@@ -3,7 +3,7 @@ head:
   - - meta
     - property: og:title
       content: 'AI Art Prompt Rules: Learn to Write High-Quality Image Prompts'
-description: 'Want to improve your AI art? This page covers the core rules of image prompts, including word order, quantity control, element emphasis, and negative prompts to help you write better prompts.'
+description: 'Core AI image prompt rules: word order and weighting, quantity control, element emphasis with parentheses, blending syntax, negative prompts, and the ~380-character length guideline for reliable reproduction.'
 ---
 
 # Image Prompt Rules

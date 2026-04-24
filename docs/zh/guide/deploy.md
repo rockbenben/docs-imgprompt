@@ -3,7 +3,7 @@ head:
   - - meta
     - property: og:title
       content: 如何部署 IMGPrompt：Vercel、本地和 Docker 部署指南
-description: 想要自行部署 IMGPrompt 吗？本指南为您提供了详细的部署步骤，无论您选择 Vercel 一键部署、本地环境运行还是 Docker 容器化部署，都能轻松完成。
+description: IMGPrompt 部署指南：Vercel 一键托管、Node.js 20.9+ 本地开发、Docker 容器（ghcr.io / Docker Hub）三种方案；静态导出可部署到 Cloudflare Pages、Vercel 或任意静态服务器。
 ---
 
 # 项目部署

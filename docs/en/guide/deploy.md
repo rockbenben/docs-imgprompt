@@ -3,7 +3,7 @@ head:
   - - meta
     - property: og:title
       content: 'How to Deploy IMGPrompt: Vercel, Local & Docker Guides'
-description: 'Want to deploy IMGPrompt yourself? This guide provides detailed steps for Vercel one-click deployment, local setup, and Docker containerization, making it easy to get started.'
+description: 'Deploy IMGPrompt anywhere: one-click Vercel hosting, local development with Node.js 20.9+, or Docker containers from ghcr.io/Docker Hub. Static export runs on Cloudflare Pages, Vercel, or any static host.'
 ---
 
 # Project Deployment
