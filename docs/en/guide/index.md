@@ -3,7 +3,7 @@ head:
   - - meta
     - property: og:title
       content: "IMGPrompt Guide: Getting Started with the AI Art Prompt Editor"
-description: "IMGPrompt user guide: 5,000+ bilingual AI prompts, hover to preview images, click to zoom in a lightbox, dual tag modes, shareable URLs, and 18-language smart suggestions — works with Nano Banana, Midjourney, FLUX, Veo, and more."
+description: "IMGPrompt user guide: 5,000+ bilingual AI prompts, hover (desktop) or long-press (touch) to preview images, click to zoom in a lightbox, dual tag modes, shareable URLs, and 18-language smart suggestions — works with Nano Banana, Midjourney, FLUX, Veo, and more."
 ---
 
 # Introduction
@@ -20,13 +20,13 @@ With over **5,040 curated prompt tags**, a clean interface, native-language tran
 
 - Browse in your own language, output fluent English, works with all mainstream image/video models.
 - 5,000+ curated tags across 16 main categories — styles, lighting, composition, camera, artists, and more.
-- Visual click-to-compose with hover previews to keep you in creative flow.
+- Visual click-to-compose with hover (desktop) / long-press (touch) previews to keep you in creative flow.
 
 ## How It Works
 
 1. Browse 16 main categories in your native language.
 2. Drill down: main category → subcategory.
-3. Click a tag to insert it; hover to preview the example; click the preview to zoom.
+3. Click a tag to insert it; hover (desktop) or long-press for ~0.5s (touch) to preview the example; click the thumbnail to zoom.
 4. Copy the generated English prompt into any AI tool.
 
 ## Features
@@ -35,9 +35,9 @@ With over **5,040 curated prompt tags**, a clean interface, native-language tran
 
 16 main categories, hundreds of subcategories, and every tag paired with a native-language label so you know what you're picking.
 
-### 🖼️ Hover to Preview, Click to Zoom
+### 🖼️ Hover / Long-Press to Preview, Click to Zoom
 
-Entries with example images show a preview tooltip on hover. Click the preview to open a lightbox:
+Entries with example images surface a preview popover (native-language name, thumbnail, description). On desktop it appears on hover; **on touch devices, long-press the tag for ~0.5 seconds** to open it. Click / tap the thumbnail to enter the lightbox:
 
 - **Zoom in/out** with scroll or buttons to see detail.
 - **Rotate** at 45° / 90° increments for multiple angles.
@@ -45,6 +45,8 @@ Entries with example images show a preview tooltip on hover. Click the preview t
 - **Keyboard**: `Esc` closes; arrow keys navigate (where applicable).
 
 Closing the lightbox preserves your browsing and selection state — no flow interruption.
+
+> On touch devices, a quick tap still **adds / removes** the tag — long-press is the preview gesture, so the two never collide.
 
 ### 🎨 Dual Modes: Multicolor vs Monochrome
 

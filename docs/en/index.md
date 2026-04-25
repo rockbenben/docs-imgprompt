@@ -4,7 +4,7 @@ pageType: home
 hero:
   name: IMGPrompt
   text: Native-Language Prompting
-  tagline: 5,000+ bilingual tags · click to compose · hover to preview
+  tagline: 5,000+ bilingual tags · click to compose · hover or long-press to preview
   actions:
     - theme: brand
       text: Try the App
@@ -22,8 +22,8 @@ features:
   - title: 5,000+ Curated Prompts
     details: 16 main categories and hundreds of subcategories. Every tag is a ready-to-copy English prompt paired with a native-language label.
     icon: 🔥
-  - title: Hover to Preview, Click to Zoom
-    details: Hover any tagged-with-image entry for an instant preview. Click the preview to open a lightbox — zoom, rotate, download. WYSIWYG prompt picking.
+  - title: Hover or Long-Press to Preview, Click to Zoom
+    details: Hover (desktop) or long-press for ~0.5s (touch) on any tag with an image to surface the preview. Click the thumbnail to open a lightbox — zoom, rotate, download. WYSIWYG prompt picking.
     icon: 🖼️
   - title: Dual Tag Modes
     details: Multicolor mode for high visual contrast, monochrome mode for information density. Toggle instantly; preference is remembered.
@@ -49,7 +49,7 @@ features:
 ## Why IMGPrompt
 
 - **Native-language UI, English output**: every prompt has a translated label so you always know what you're picking.
-- **Hover to preview**: entries with images auto-show a preview on hover; click the preview for a full-screen lightbox (zoom, rotate, download).
+- **Hover or long-press to preview**: hover on desktop, or long-press for ~0.5s on touch devices, to surface the preview popover; click the thumbnail for a full-screen lightbox (zoom, rotate, download).
 - **Dual tag modes**: switch between multicolor and monochrome with one click; your preference is remembered.
 - **18 interface languages**: English, Simplified/Traditional Chinese, Japanese, Korean, Spanish, French, German, Portuguese, Russian, Arabic, Hindi, Bengali, Indonesian, Vietnamese, Thai, Turkish, Italian — UI and prompt library fully localized.
 - **Shareable URLs**: the URL remembers your current category so teammates open the same view.

@@ -47,17 +47,17 @@ Each prompt is a JSON object:
 | `langName`    | ✅ Yes   | Localized label shown in the UI                                                        |
 | `object`      | ✅ Yes   | Main category (e.g., Character, Environment, Photography, Art Style)                   |
 | `attribute`   | ✅ Yes   | Subcategory (e.g., Basics, Expression, Camera Focus, Portrait)                         |
-| `description` | ❌ No    | Tooltip text on hover (e.g., author credits, usage notes)                              |
-| `preview`     | ❌ No    | Preview image URL — shown inside the hover tooltip and **clickable to open a lightbox** |
+| `description` | ❌ No    | Extra text shown inside the preview popover (author credits, usage notes, etc.) — surfaced on hover (desktop) / long-press (touch) |
+| `preview`     | ❌ No    | Preview image URL — shown inside the popover on hover (desktop) or long-press for ~0.5s (touch); **click / tap the thumbnail to open the lightbox** |
 
-> 💡 The `preview` field powers the hover-to-preview + click-to-zoom experience. Entries with a preview image get a small indicator icon and stand out visually.
+> 💡 The `preview` field powers the hover/long-press preview + click-to-zoom experience. Entries with a preview image get a small indicator icon and stand out visually. Desktop uses hover; touch devices use long-press, so a quick tap still just adds / removes the tag.
 
 ### Data Hygiene Tips
 
 - Keep `displayName` unique — duplicates are ignored and reduce suggestion quality.
 - Reuse the same `object` / `attribute` values across languages so navigation stays consistent.
 - Keep `langName` concise to avoid chip truncation.
-- For `preview`, WebP ≤ 150 KB with a 1:1 (square) aspect ratio renders best inside the tooltip.
+- For `preview`, WebP ≤ 150 KB with a 1:1 (square) aspect ratio renders best inside the hover / long-press popover.
 
 ## Adding Custom Prompts
 
@@ -84,4 +84,4 @@ Example:
 ]
 ```
 
-Custom entries follow the exact same display rules as built-ins: include a `preview` to enable the hover-preview + click-to-zoom treatment.
+Custom entries follow the exact same display rules as built-ins: include a `preview` to enable the hover / long-press preview + click-to-zoom treatment.

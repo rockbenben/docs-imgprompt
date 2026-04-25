@@ -3,7 +3,7 @@ head:
   - - meta
     - property: og:title
       content: "IMGPrompt Interface Guide: Master AI Art Prompt Editing"
-description: "IMGPrompt interface walkthrough: 3-step category navigation for bilingual tags, hover to preview example images, click to open a lightbox (zoom, rotate, download), multicolor/monochrome toggle, and shareable URLs for team workflows."
+description: "IMGPrompt interface walkthrough: 3-step category navigation for bilingual tags, hover (desktop) or long-press (touch) to preview example images, click to open a lightbox (zoom, rotate, download), multicolor/monochrome toggle, and shareable URLs for team workflows."
 ---
 
 # Interface Overview
@@ -28,9 +28,9 @@ The **① Select Object** row at the top lists 16 main categories such as **Char
 
 Click any tag to add it to the prompt box; click a selected tag to remove it. Duplicates are automatically ignored.
 
-### Hover to Preview, Click to Zoom 🖼️
+### Hover / Long-Press to Preview, Click to Zoom 🖼️
 
-Tags with example images show a preview tooltip on hover. **Click the preview image** to open the lightbox:
+Tags with example images surface a preview popover containing the native-language name, thumbnail, and description. On desktop it appears on hover; **on touch devices (phones / tablets) press and hold the tag for ~0.5 seconds** to bring it up. **Click / tap the thumbnail** inside to open the lightbox:
 
 - **Zoom in/out** with scroll or buttons to inspect fine detail.
 - **Rotate** by 45° / 90° to check multiple angles.
@@ -38,6 +38,8 @@ Tags with example images show a preview tooltip on hover. **Click the preview im
 - **Keyboard**: `Esc` to close; arrow keys where applicable.
 
 Closing the lightbox keeps your current browsing position and selections intact — no flow breakage.
+
+> 📱 Touch devices: a quick tap still **adds / removes** the tag — only a long-press opens the preview. While the popover is open, tap anywhere outside to dismiss it.
 
 ### Multicolor vs Monochrome: One-Click Toggle 🎨
 
